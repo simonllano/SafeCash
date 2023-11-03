@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435077247749",
+    "project_id": "safecash-b92cc",
+    "storage_bucket": "safecash-b92cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435077247749:android:a7041a7b916eb8a6563d6c",
+        "android_client_info": {
+          "package_name": "com.simonllano.safecash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuyFrKTbmljVlAFjW2N_QtZygD1XVdkbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

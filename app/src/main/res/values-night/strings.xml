@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usuario">Usuario</string>
+    <string name="user">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="enter">Ingresar</string>
+    <string name="new_account">"Crear cuenta "</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="email">Correo</string>
+    <string name="repeat_password">Repetir Contraseña</string>
+    <string name="age">Edad</string>
+    <string name="female">Femenino</string>
+    <string name="male">Masculino</string>
+    <string name="register">Registrar</string>
+    <string name="password_recovery">¿Olvidaste tu contraseña?</string>
+    <string name="o">o</string>
+    <string name="conector">O</string>
+</resources>
