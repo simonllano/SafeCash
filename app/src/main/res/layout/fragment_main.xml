@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEFEE"
+    tools:context=".MainFragment">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/balance"
+        android:textColor="@color/maincolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/value_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/valueBalance"
+        android:textColor="@color/maincolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="352dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:background="#EEEFEE"
+        android:backgroundTint="#EEEFEE"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/home_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:adjustViewBounds="false"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttonhome"
+                android:scaleType="fitCenter"
+                android:src="@drawable/casa" />
+
+            <ImageButton
+                android:id="@+id/health_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttonhealth"
+                android:scaleType="fitCenter"
+                android:src="@drawable/estetoscopio" />
+
+            <ImageButton
+                android:id="@+id/market_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttonmarket"
+                android:scaleType="fitCenter"
+                android:src="@drawable/comestibles" />
+
+            <ImageButton
+                android:id="@+id/transport_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttontransport"
+                android:scaleType="fitCenter"
+                android:src="@drawable/transporte" />
+
+            <ImageButton
+                android:id="@+id/pets_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttonpets"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mascotas" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/phone_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttonphone"
+                android:scaleType="fitCenter"
+                android:src="@drawable/telefono" />
+
+            <ImageButton
+                android:id="@+id/beauty_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttonbeauty"
+                android:scaleType="fitCenter"
+                android:src="@drawable/peluqueria" />
+
+            <ImageButton
+                android:id="@+id/entertainment_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttonentertainment"
+                android:scaleType="fitCenter"
+                android:src="@drawable/entretenimiento" />
+
+            <ImageButton
+                android:id="@+id/cloth_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttoncloth"
+                android:scaleType="fitCenter"
+                android:src="@drawable/camiseta" />
+
+            <ImageButton
+                android:id="@+id/car_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/background"
+                android:contentDescription="@string/buttoncar"
+                android:scaleType="fitCenter"
+                android:src="@drawable/carro" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
