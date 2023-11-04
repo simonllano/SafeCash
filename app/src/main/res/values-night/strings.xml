@@ -16,4 +16,5 @@
     <string name="password_recovery">¿Olvidaste tu contraseña?</string>
     <string name="o">o</string>
     <string name="conector">O</string>
+    <string name="balance">Saldo:</string>
 </resources>
