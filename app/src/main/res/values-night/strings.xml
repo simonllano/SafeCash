@@ -17,4 +17,15 @@
     <string name="o">o</string>
     <string name="conector">O</string>
     <string name="balance">Saldo:</string>
+    <string name="buttonhome">Hogar</string>
+    <string name="buttonhealth">Health</string>
+    <string name="buttonmarket">Mercado</string>
+    <string name="buttontransport">Transporte</string>
+    <string name="buttonpets">Mascotas</string>
+    <string name="buttonphone">Telefono</string>
+    <string name="buttonbeauty">Belleza</string>
+    <string name="buttonentertainment">Entretenimiento</string>
+    <string name="buttoncloth">Ropa</string>
+    <string name="buttoncar">Automovil</string>
+    <string name="valueBalance">0</string>
 </resources>
