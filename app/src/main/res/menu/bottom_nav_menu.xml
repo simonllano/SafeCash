@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/principal"
+        android:title="@string/title_main" />
+
+    <item
+        android:id="@+id/navigation_income"
+        android:icon="@drawable/ingresos"
+        android:title="@string/title_income" />
+
+    <item
+        android:id="@+id/navigation_costs"
+        android:icon="@drawable/gastos"
+        android:title="@string/title_costs" />
+
+    <item
+        android:id="@+id/navigation_deductibles"
+        android:icon="@drawable/deducibles"
+        android:title="@string/title_deductibles" />
+
+</menu>

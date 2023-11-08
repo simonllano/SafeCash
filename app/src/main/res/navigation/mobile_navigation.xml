@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.simonllano.safecash.ui.main.MainFragment"
+        android:label="@string/title_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/navigation_income"
+        android:name="com.simonllano.safecash.ui.income.IncomeFragment"
+        android:label="@string/title_income"
+        tools:layout="@layout/fragment_income" />
+
+    <fragment
+        android:id="@+id/navigation_costs"
+        android:name="com.simonllano.safecash.ui.costs.CostsFragment"
+        android:label="@string/title_costs"
+        tools:layout="@layout/fragment_costs" />
+
+    <fragment
+        android:id="@+id/navigation_deductibles"
+        android:name="com.simonllano.safecash.ui.deductibles.DeductibleFragment"
+        android:label="@string/title_costs"
+        tools:layout="@layout/fragment_deductible" />
+
+
+</navigation>

@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.simonllano.safecash.ui.register.RegisterActivity
 import com.simonllano.safecash.databinding.ActivityLoginBinding
-import com.simonllano.safecash.ui.main.MainActivity
+import com.simonllano.safecash.ui.bottom.BottomNavigationMainActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         loginViewModel.registerSuccess.observe(this){
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, BottomNavigationMainActivity::class.java)
             startActivity(intent)
             finish()
 
