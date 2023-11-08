@@ -18,7 +18,7 @@
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">@color/maincolor</item>
     </style>
-    <style name="SpinnerTextStyle">
+    <style name="SpinnerItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
         <item name="android:textColor">@color/maincolor</item>
     </style>
 

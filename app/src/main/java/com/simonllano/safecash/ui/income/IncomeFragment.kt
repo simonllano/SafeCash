@@ -18,6 +18,7 @@ class IncomeFragment : Fragment() {
     private lateinit var incomebinding: FragmentIncomeBinding
     private lateinit var incomeViewModel : IncomeViewModel
 
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         incomebinding = FragmentIncomeBinding.inflate(inflater, container, false)
@@ -29,6 +30,10 @@ class IncomeFragment : Fragment() {
         }
 
         incomeViewModel.createIncomeSuccess.observe(viewLifecycleOwner){
+
+        }
+
+        incomeViewModel.incomeList.observe(viewLifecycleOwner){
 
         }
 
@@ -49,6 +54,8 @@ class IncomeFragment : Fragment() {
                     tipo
 
                 )
+
+                incomeViewModel.loadDatos()
             }
         }
 

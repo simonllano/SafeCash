@@ -33,10 +33,11 @@
         android:layout_marginEnd="16dp"
         android:entries="@array/category_list"
         android:minHeight="48dp"
-        style="@style/SpinnerTextStyle"
+        android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/category_text_view" />
+        app:layout_constraintTop_toBottomOf="@+id/category_text_view"
+        android:spinnerDropDownItemStyle="@style/SpinnerItemStyle"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tipo_costs_input_layout"
