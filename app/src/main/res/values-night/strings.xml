@@ -16,4 +16,54 @@
     <string name="password_recovery">¿Olvidaste tu contraseña?</string>
     <string name="o">o</string>
     <string name="conector">O</string>
+    <string name="balance">Saldo:</string>
+    <string name="buttonhome">Hogar</string>
+    <string name="buttonhealth">Health</string>
+    <string name="buttonmarket">Mercado</string>
+    <string name="buttontransport">Transporte</string>
+    <string name="buttonpets">Mascotas</string>
+    <string name="buttonphone">Telefono</string>
+    <string name="buttonbeauty">Belleza</string>
+    <string name="buttonentertainment">Entretenimiento</string>
+    <string name="buttoncloth">Ropa</string>
+    <string name="buttoncar">Automovil</string>
+    <string name="valueBalance">0</string>
+    <string name="deductible">Deducibles</string>
+    <string name="Income">Ingresos</string>
+    <string name="costs">Gastos</string>
+    <string name="incometotal">Total ingresos</string>
+    <string name="presentvalue">Valor actual mes</string>
+    <string name="value">Ingresar valor</string>
+    <string name="salary">Salario</string>
+    <string name="saving">Ahorro</string>
+    <string name="extra">Extras</string>
+    <string name="add">Agregar</string>
+    <string name="choose_category">Elige una categoria</string>
+    <string name="shopping">¿Que compraste?</string>
+    <string name="totaldeductible">Total deducibles</string>
+    <string name="note">Ingresa una nota</string>
+    <string name="date">Dia/Mes/Año</string>
+    <string name="type_Deductible">Tipo de deducible</string>
+
+    <string-array name="category_list">
+        <item>Seleciona</item>
+        <item>Casa</item>
+        <item>Salud</item>
+        <item>Mercado</item>
+        <item>Transporte</item>
+        <item>Mascotas</item>
+        <item>Telefono</item>
+        <item>Belleza</item>
+        <item>Entretenimiento</item>
+        <item>Ropa</item>
+        <item>Carro</item>
+    </string-array>
+
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_main">Principal</string>
+    <string name="title_income">Ingresos</string>
+    <string name="title_costs">Gastos</string>
+    <string name="title_deductibles">Deducibles</string>
+    <string name="title_activity_bottom_navigation_main">BottomNavigationMainActivity</string>
+
 </resources>

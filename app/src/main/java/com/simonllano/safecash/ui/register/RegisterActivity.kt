@@ -24,6 +24,11 @@ class RegisterActivity : AppCompatActivity() {
         registerViewModel.registerSuccess.observe(this){
             onBackPressedDispatcher.onBackPressed()
         }
+        var genre = "Masculino"
+        if(registerBinding.femaleRadioButton.isClickable){
+            var genre = "Femenino"
+        }
+
 
         registerBinding.registerButton.setOnClickListener {
             val name = registerBinding.nameEditText.text.toString()
@@ -33,8 +38,20 @@ class RegisterActivity : AppCompatActivity() {
             val password = registerBinding.passwordEditText.text.toString()
             val reppassword = registerBinding.reppasswordEditText.text.toString()
             val age = registerBinding.ageEditText.text.toString()
+            val genre = genre
 
-            registerViewModel.validateFields(name, lastname, user, email, password, reppassword, age)
+
+
+
+
+
+
+
+
+
+
+
+            registerViewModel.validateFields(name, lastname, user, email, password, reppassword, age,genre)
 
         }
         
