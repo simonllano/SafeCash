@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.incomelist.IncomeFragment">
+    tools:context=".ui.deductibleslist.DeductiblesFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/income_recycler_view"
+        android:id="@+id/deductibles_recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/card_view_income_item" />
+        android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

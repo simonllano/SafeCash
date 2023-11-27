@@ -1,17 +1,15 @@
-package com.simonllano.safecash.ui.deductibles
+package com.simonllano.safecash.ui.newdeductibles
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.simonllano.safecash.data.DeductiblesRepository
-import com.simonllano.safecash.data.IncomeRepository
 import com.simonllano.safecash.data.ResourceRemote
 import com.simonllano.safecash.data.model.Deductibles
-import com.simonllano.safecash.data.model.Income
 import kotlinx.coroutines.launch
 
-class DeductiblesViewModel : ViewModel() {
+class NewDeductiblesViewModel : ViewModel() {
 
     val deductiblesRepository = DeductiblesRepository()
 
@@ -21,8 +19,8 @@ class DeductiblesViewModel : ViewModel() {
     private val _createDeductiblesSuccess : MutableLiveData <Boolean> = MutableLiveData()
     val createDeductiblesSuccess : LiveData<Boolean> = _createDeductiblesSuccess
 
-    fun validateFields(value: Double, type: String, date: String) {
-        if (value.isNaN() || type.isEmpty() || date.isEmpty()) {
+    fun validateFields(value: String, type: String, date: String) {
+        if (value.isEmpty() || type.isEmpty() || date.isEmpty()) {
             _errorMSG.value = "Debe digitar todos los campos"
         } else {
             val deductibles = Deductibles(value = value, name = type, date = date)

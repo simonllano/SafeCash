@@ -92,58 +92,44 @@
 
     </TableLayout>
 
-    <TextView
-        android:id="@+id/income_text_view"
+    <Button
+        android:id="@+id/new_income_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
-        android:gravity="center"
-        android:text="@string/Income"
-        android:textColor="@color/maincolor"
-        android:textColorHighlight="@color/maincolor"
-        android:textColorHint="@color/maincolor"
-        android:textStyle="bold"
+        android:text="@string/newincome"
+        android:textColor="@color/textcolor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
 
-    <TextView
-        android:id="@+id/costs_text_view"
+    <Button
+        android:id="@+id/new_cost_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
-        android:gravity="center"
-        android:text="@string/costs"
-        android:textColor="@android:color/holo_red_light"
-        android:textColorHighlight="@android:color/holo_red_light"
-        android:textStyle="bold"
+        android:text="@string/newcost"
+        android:textColor="@color/textcolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/income_text_view" />
+        app:layout_constraintTop_toBottomOf="@+id/new_income_button" />
 
-    <TextView
-        android:id="@+id/credit_balance_text_view"
+    <Button
+        android:id="@+id/new_deductible_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
-        android:background="@color/background"
-        android:gravity="center"
-        android:text="@string/balance"
-        android:textColor="@color/maincolor"
-        android:textColorHighlight="@color/maincolor"
-        android:textColorHint="@color/maincolor"
-        android:textStyle="bold"
+        android:text="@string/newdeductible"
+        android:textColor="@color/textcolor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/costs_text_view" />
+        app:layout_constraintTop_toBottomOf="@+id/new_cost_button" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

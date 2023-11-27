@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".ui.deductibles.DeductibleFragment">
+    tools:context=".ui.newdeductibles.NewDeductibleFragment">
 
 
     <TextView
@@ -94,19 +94,25 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
         android:textColorHint="@color/colorMainHint"
+        app:helperText="@string/PurchaseDate"
+        app:helperTextEnabled="true"
+        app:helperTextTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:helperTextTextColor="@color/maincolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/type_deduc_input_layout">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <TextView
             android:id="@+id/date_deduc_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="false"
             android:hint="@string/date"
-            android:inputType="date"
             android:textColor="@color/maincolor"
             android:textColorHighlight="@color/maincolor"
-            android:textColorHint="@color/maincolor" />
+            android:textColorHint="@color/maincolor"
+            tools:ignore="TouchTargetSizeCheck"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

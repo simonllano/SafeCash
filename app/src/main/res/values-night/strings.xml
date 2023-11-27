@@ -65,5 +65,17 @@
     <string name="title_costs">Gastos</string>
     <string name="title_deductibles">Deducibles</string>
     <string name="title_activity_bottom_navigation_main">BottomNavigationMainActivity</string>
+    <string name="PurchaseDate">Elige la fecha de compra</string>
+    <string name="newIncome">Nuevo Ingreso</string>
+    <string name="typeincome">Ingreso</string>
+    <string name="valueincome">Valor:</string>
+    <string name="tipoincome">Tipo de ingreso:</string>
+    <string name="tipo">¿De que?</string>
+    <string name="dateincome">Fecha (Año-Mes-Dia):</string>
+    <string name="newincome">Nuevo Ingreso</string>
+    <string name="newcost">Nuevo Gasto</string>
+    <string name="newdeductible">Nuevo Deducible</string>
+    <string name="category">Categoria</string>
+    <string name="datededuc">Año-Mes-Dia</string>
 
 </resources>

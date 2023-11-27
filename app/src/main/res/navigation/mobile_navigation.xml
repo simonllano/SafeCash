@@ -9,25 +9,50 @@
         android:id="@+id/navigation_main"
         android:name="com.simonllano.safecash.ui.main.MainFragment"
         android:label="@string/title_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_newIncomeFragment"
+            app:destination="@id/newIncomeFragment2" />
+        <action
+            android:id="@+id/action_mainFragment_to_newCostsFragment"
+            app:destination="@id/newCostsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_newDeductiblesFragment"
+            app:destination="@id/newDeductibleFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_income"
-        android:name="com.simonllano.safecash.ui.income.IncomeFragment"
+        android:name="com.simonllano.safecash.ui.incomelist.IncomeFragment"
         android:label="@string/title_income"
         tools:layout="@layout/fragment_income" />
 
     <fragment
         android:id="@+id/navigation_costs"
-        android:name="com.simonllano.safecash.ui.costs.CostsFragment"
+        android:name="com.simonllano.safecash.ui.costlist.CostsFragment"
         android:label="@string/title_costs"
         tools:layout="@layout/fragment_costs" />
 
     <fragment
         android:id="@+id/navigation_deductibles"
-        android:name="com.simonllano.safecash.ui.deductibles.DeductibleFragment"
-        android:label="@string/title_costs"
-        tools:layout="@layout/fragment_deductible" />
+        android:name="com.simonllano.safecash.ui.deductibleslist.DeductiblesFragment"
+        android:label="@string/title_deductibles"
+        tools:layout="@layout/fragment_deductibles" />
+    <fragment
+        android:id="@+id/newCostsFragment"
+        android:name="com.simonllano.safecash.ui.newcosts.NewCostsFragment"
+        android:label="fragment_new_costs"
+        tools:layout="@layout/fragment_new_costs" />
+    <fragment
+        android:id="@+id/newIncomeFragment2"
+        android:name="com.simonllano.safecash.ui.newincome.NewIncomeFragment"
+        android:label="fragment_new_income"
+        tools:layout="@layout/fragment_new_income" />
+    <fragment
+        android:id="@+id/newDeductibleFragment"
+        android:name="com.simonllano.safecash.ui.newdeductibles.NewDeductibleFragment"
+        android:label="fragment_new_deductible"
+        tools:layout="@layout/fragment_new_deductible" />
 
 
 </navigation>
