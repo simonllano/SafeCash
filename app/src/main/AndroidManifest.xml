@@ -12,17 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SafeCash"
         tools:targetApi="31">
-        <activity
-            android:name=".EnsayoActivity"
-            android:exported="false"
-            android:label="@string/title_activity_ensayo" />
+
         <activity
             android:name=".ui.splash.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.SafeCash.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

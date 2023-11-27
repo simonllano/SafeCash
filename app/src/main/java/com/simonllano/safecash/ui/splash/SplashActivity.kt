@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.simonllano.safecash.R
 import android.content.Intent
 import android.view.ViewTreeObserver
+import com.simonllano.safecash.ui.bottom.BottomNavigationMainActivity
 import com.simonllano.safecash.ui.login.LoginActivity
 
 

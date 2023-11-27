@@ -46,10 +46,10 @@
     <string name="note">Ingresa una nota</string>
     <string name="dateinco">Año-Mes-Dia</string>
     <string name="datecost">Año-Mes-Dia</string>
-    <string name="type_Deductible">Tipo de deducible</string>
+    <string name="type_Deductible">Tipo de deducible:</string>
 
 
-    <string-array name="category_list">
+    <string-array name="category_list" >
         <item>Seleciona</item>
         <item>Casa</item>
         <item>Salud</item>
@@ -68,6 +68,7 @@
     <string name="title_income">Ingresos</string>
     <string name="title_costs">Gastos</string>
     <string name="title_deductibles">Deducibles</string>
+    <string name="title_perfil">Perfil</string>
     <string name="title_activity_bottom_navigation_main">BottomNavigationMainActivity</string>
     <string name="PurchaseDate">Elige la fecha de compra</string>
     <string name="newIncome">Nuevo Ingreso</string>
@@ -85,5 +86,11 @@
     <string name="newdeductible">Nuevo Deducible</string>
     <string name="category">Categoria</string>
     <string name="datededuc">Año-Mes-Dia</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="nameuser">Usuario</string>
+    <string name="closesesion">Cerrar sesion</string>
+    <string name="tipogasto">Tipo de gasto:</string>
 
 </resources>

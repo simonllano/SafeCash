@@ -20,6 +20,9 @@
         android:id="@+id/navigation_deductibles"
         android:icon="@drawable/deducibles"
         android:title="@string/title_deductibles" />
-
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/usuario"
+        android:title="@string/title_perfil" />
 
 </menu>

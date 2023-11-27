@@ -4,6 +4,8 @@ import android.util.Log
 import androidx.lifecycle.lifecycleScope
 import com.google.firebase.FirebaseException
 import com.google.firebase.FirebaseNetworkException
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestoreException
 import com.google.firebase.firestore.QuerySnapshot
 import com.google.firebase.firestore.ktx.firestore
@@ -18,11 +20,12 @@ import java.util.Locale
 class CostsRepository {
 
     private var db = Firebase.firestore
-
+    private var auth: FirebaseAuth = Firebase.auth
     suspend fun createCosts(costs: Costs): ResourceRemote<String?> {
         return try {
             val document = db.collection("costs").document()
             costs.id = document.id
+            costs.uid = auth.uid
             db.collection("costs").document(document.id).set(costs).await()
             ResourceRemote.Success(data = document.id)
         } catch (e: FirebaseFirestoreException) {

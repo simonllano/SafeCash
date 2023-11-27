@@ -43,7 +43,7 @@
     <string name="totaldeductible">Total deducibles</string>
     <string name="note">Ingresa una nota</string>
     <string name="date">Dia/Mes/Año</string>
-    <string name="type_Deductible">Tipo de deducible</string>
+    <string name="type_Deductible">Tipo de deducible:</string>
 
     <string-array name="category_list">
         <item>Seleciona</item>
@@ -77,5 +77,11 @@
     <string name="newdeductible">Nuevo Deducible</string>
     <string name="category">Categoria</string>
     <string name="datededuc">Año-Mes-Dia</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="nameuser">Usuario</string>
+    <string name="closesesion">Cerrar sesion</string>
+    <string name="tipogasto">Tipo de gasto:</string>
 
 </resources>

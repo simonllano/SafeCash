@@ -39,6 +39,7 @@ class IncomeRepository {
     suspend fun loadDatos(): ResourceRemote<QuerySnapshot?> {
         return try {
             val result = db.collection("income").get().await()
+
             ResourceRemote.Success(data = result)
         } catch (e: FirebaseFirestoreException) {
             Log.e("FirebaseFirestoreException", e.localizedMessage)
@@ -51,5 +52,7 @@ class IncomeRepository {
             ResourceRemote.Error(message = e.localizedMessage)
         }
     }
+
+
 }
 

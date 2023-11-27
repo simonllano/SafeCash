@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
             android:layout_marginTop="20dp"
-            android:text="@string/tipoincome"
+            android:text="@string/tipogasto"
             android:textColor="@color/textcolor"
             android:textColorHighlight="@color/textcolor"
             android:textColorHint="@color/textcolor"

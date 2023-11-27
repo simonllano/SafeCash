@@ -53,6 +53,11 @@
         android:name="com.simonllano.safecash.ui.newdeductibles.NewDeductibleFragment"
         android:label="fragment_new_deductible"
         tools:layout="@layout/fragment_new_deductible" />
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.simonllano.safecash.ui.perfil.PerfilFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil" />
 
 
 </navigation>

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
+import com.simonllano.safecash.data.UserRepository
 import com.simonllano.safecash.ui.register.RegisterActivity
 import com.simonllano.safecash.databinding.ActivityLoginBinding
 import com.simonllano.safecash.ui.bottom.BottomNavigationMainActivity
@@ -38,15 +39,12 @@ class LoginActivity : AppCompatActivity() {
 
         }
 
-        loginBinding.passwordRecoveryTextView.setOnClickListener {//Aca se envia la orden para abrir la actividad
-            val intent = Intent(this, RegisterActivity::class.java)
-            startActivity(intent)
-        }
 
         loginBinding.registerButton.setOnClickListener{
             val email = loginBinding.userEditText.text.toString()
             val password = loginBinding.passwordEditText.text.toString()
             loginViewModel.validateFields(email, password)
+
         }
 
     }
